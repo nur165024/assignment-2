@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--  style  -->
     <link rel="stylesheet" href="css/style.css">
+    <!--  responsive css  -->
+    <link rel="stylesheet" href="css/responsive.css">
     <!--  google font  -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Yellowtail&display=swap" rel="stylesheet">
     <!--  fontawesome  -->
@@ -51,12 +53,12 @@
 <section id="banner__part">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-12 d-md-block d-none">
                 <div class="banner_image">
-                    <img src="images/banner_image.png" class="img-fluid" alt="Bbanner Image">
+                    <img src="images/banner_image.png" alt="Bbanner Image">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-12">
                 <div class="banner__content">
                     <h1>
                         <span class="first_line">NIKE REACT</span><br>
@@ -67,6 +69,12 @@
                         <span><img src="images/shopping-cart%201.png" alt="shopping-cart"></span>
                         <span class="button_text">buy now</span>
                     </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-md-none d-block">
+                <div class="banner_image">
+                    <img src="images/banner_image.png" alt="Bbanner Image">
                 </div>
             </div>
         </div>
@@ -83,7 +91,7 @@
                     <h2>Casual Shoes</h2>
                 </div>
             </div>
-            <div class="col-md-4 product_show">
+            <div class="col-md-4 col-sm-6 product_show">
                 <div class="card">
                     <a href="javascript:void(0);">
                         <img class="card-img-top" src="images/product-1.jpg" alt="product image">
@@ -101,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 product_show">
+            <div class="col-md-4 col-sm-6 product_show">
                 <div class="card">
                     <a href="javascript:void(0);">
                         <img class="card-img-top" src="images/product-2.jpg" alt="product image">
@@ -119,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 product_show">
+            <div class="col-md-4 col-sm-6 product_show">
                 <div class="card">
                     <a href="javascript:void(0);">
                         <img class="card-img-top" src="images/product-3.jpg" alt="product image">
@@ -151,7 +159,7 @@
                     <h2>Formal shoes</h2>
                 </div>
             </div>
-            <div class="col-md-4 product_show">
+            <div class="col-md-4 col-sm-6 product_show">
                 <div class="card">
                     <a href="javascript:void(0);">
                         <img class="card-img-top" src="images/product-4.png" alt="product image">
@@ -169,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 product_show">
+            <div class="col-md-4 col-sm-6 product_show">
                 <div class="card">
                     <a href="javascript:void(0);">
                         <img class="card-img-top" src="images/product-5.png" alt="product image">
@@ -187,7 +195,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 product_show">
+            <div class="col-md-4 col-sm-6 product_show">
                 <div class="card">
                     <a href="javascript:void(0);">
                         <img class="card-img-top" src="images/product-6.png" alt="product image">
@@ -219,14 +227,18 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-7 d-block d-md-none text_about_us">
+                <img src="images/abountUS_1.png" class="img-fluid" alt="about us image">
+            </div>
+
+            <div class="col-md-5 text_about_us">
                 <div class="row">
                     <div class="col-md-12 about_us_content">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-lg-3 col-md-4">
                                 <img src="images/icon-1.png" alt="icon image">
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-lg-7 col-md-7">
                                 <div class="text_item">
                                     <h5>Find the Perfect Fit</h5>
                                     <p>Everybody is different, which is why we offer styles for every body.</p>
@@ -238,10 +250,10 @@
                 <div class="row">
                     <div class="col-md-12 about_us_content">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-lg-3 col-md-4">
                                 <img src="images/icon-1.png" alt="icon image">
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-lg-7 col-md-7">
                                 <div class="text_item">
                                     <h5>Free Exchanges</h5>
                                     <p>One of the many reasons you can shop with peace of mind.</p>
@@ -253,10 +265,10 @@
                 <div class="row">
                     <div class="col-md-12 about_us_content">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-lg-3 col-md-4">
                                 <img src="images/icon-1.png" alt="icon image">
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-lg-7 col-md-7">
                                 <div class="text_item">
                                     <h5>Free Exchanges</h5>
                                     <p>One of the many reasons you can shop with peace of mind.</p>
@@ -266,7 +278,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-7">
+
+            <div class="col-md-7 d-none d-md-block md_image_class">
                 <img src="images/abountUS_1.png" class="img-fluid" alt="about us image">
             </div>
         </div>

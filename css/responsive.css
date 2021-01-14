@@ -1,0 +1,94 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .product_show .card-body .btn-primary{
+        left: 57px;
+    }
+    .banner__content {
+        position: relative;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 100px 65px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .product_show .card-body h4{
+        display: block;
+    }
+    .product_show .card-body .btn-primary{
+        display: block;
+        left: 0;
+    }
+    .md_image_class img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner__content h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .banner__content {
+        position: relative;
+        left: 0;
+        top: 80%;
+        transform: translateY(-50%);
+        padding: 10px;
+    }
+    .product_show .card-body h4{
+        display: block;
+    }
+    .product_show .card-body .btn-primary{
+        display: block;
+        left: 0;
+    }
+    .text_about_us{
+        margin: 15px !important;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #nav__bar__item .navbar-brand img {
+        width: 180px;
+        height: 30px;
+    }
+    .banner__content h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .banner__content {
+        position: relative;
+        left: 0;
+        top: 80%;
+        transform: translateY(-50%);
+        padding: 10px;
+    }
+    .product_show .card-body h4{
+        display: block;
+    }
+    .product_show .card-body .btn-primary{
+        display: block;
+        left: 0;
+    }
+    .text_about_us{
+        margin: 15px !important;
+    }
+    #contact_us{
+        margin: 15px;
+    }
+    .contact_form{
+        margin-bottom: 30px;
+    }
+}
