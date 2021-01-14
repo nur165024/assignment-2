@@ -15,10 +15,38 @@
         transform: translateY(-50%);
         padding: 100px 65px;
     }
+    .banner__content h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .md_image_class img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .banner__content h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    #banner__part {
+        background: #fff9f4;
+        height: 550px;
+        position: relative;
+    }
+    .banner__content {
+        position: relative;
+        left: 0;
+        top: 100%;
+        padding: 0 40px;
+    }
+    .banner_image {
+        position: absolute;
+        top: 35%;
+    }
     .product_show .card-body h4{
         display: block;
     }
@@ -30,6 +58,9 @@
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent !important;
     }
 }
 
@@ -46,6 +77,9 @@
         transform: translateY(-50%);
         padding: 10px;
     }
+    .about_us_content{
+        text-align: center;
+    }
     .product_show .card-body h4{
         display: block;
     }
@@ -55,6 +89,22 @@
     }
     .text_about_us{
         margin: 15px !important;
+    }
+    .banner_image{
+        position: relative;
+    }
+    .banner_image img {
+        position: absolute;
+        width: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent !important;
+    }
+    .contact_form{
+        margin-bottom: 30px;
     }
 }
 
@@ -90,5 +140,39 @@
     }
     .contact_form{
         margin-bottom: 30px;
+    }
+    .about_us_content{
+        text-align: center;
+    }
+    .banner_image{
+        position: relative;
+    }
+    .banner_image img {
+        position: absolute;
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent !important;
+    }
+}
+@media (max-width: 500px) {
+    .banner_image img {
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 55px;
+    }
+}
+@media (max-width: 400px) {
+    .banner_image img {
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100px;
     }
 }

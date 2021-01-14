@@ -79,7 +79,7 @@ p{
 }
 .banner__content a {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     padding: 14px 23px;
     transition: background-color .3s ease-out;
