@@ -178,3 +178,31 @@ p{
     height: 80px;
 }
 /* about us */
+/* contact us */
+#contact_us{
+    padding: 60px 0;
+}
+.contact_form{
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+    box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+}
+.contact_form button{
+    background-color: #3949D7 !important;
+    border: none;
+    width: 100px;
+    height: 40px;
+    transition: .3s ease-out;
+}
+.contact_form button:hover{
+    background-color: #F68350 !important;
+}
+.contact_form .form-control:focus{
+    border-color: #FFF9F4;
+    box-shadow: 0 0 0 0.2rem #F89350 !important;
+}
+.googleMap iframe{
+    width: 100%;
+}
+/* contact us */
